@@ -1,95 +1,24 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Box from '@mui/material/Box'
+import Typography from '@mui/material/Typography'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    <Box>
+      <Typography variant='h1'>MG – Plastics</Typography>
+      <Typography variant='h2'>Willkommen bei [Ihr Firmenname] - die Zukunft der Kunststofftechnik beginnt hier!</Typography>
+      <Typography variant='body1'>Als neues Unternehmen in der Branche sind wir bei [Ihr Firmenname] bereit, die Welt der Kunststoffproduktion mit frischen Ideen und modernsten Technologien zu revolutionieren. Unsere Mission ist es, von Anfang an innovative und zuverlässige Lösungen für Ihre Kunststoffanforderungen zu bieten.</Typography>
+      <Typography variant='h3'>Was wir bieten:</Typography>
+      <Typography variant='body1'>Modernste Technologie: Wir investieren in die neuesten CNC-Dreh- und Fräsmaschinen, um präzise und effiziente Bearbeitung zu gewährleisten. Unsere Anlagen sind auf dem neuesten Stand der Technik und bereit, den Anforderungen moderner Produkte gerecht zu werden.
+        Engagierte Montage: Trotz unserer kurzen Geschichte legen wir großen Wert auf die Qualität der Montage. Jedes Teil wird sorgfältig geprüft und montiert, um höchste Leistung und Zuverlässigkeit zu gewährleisten.
+        Qualifiziertes Schweißen: Wir verstehen die Bedeutung einer starken und haltbaren Verbindung in Kunststoffprodukten. Unsere Schweißexperten arbeiten mit den neuesten Verfahren, um sicherzustellen, dass jedes Produkt lange hält.
+        Innovative Ingenieurarbeit: Unser Team besteht aus leidenschaftlichen Ingenieuren, die ständig nach innovativen Wegen suchen, um die Produktivität zu steigern und die Kosten zu senken. Wir sind hier, um mit Ihnen zusammenzuarbeiten und maßgeschneiderte Lösungen zu entwickeln, die Ihren spezifischen Bedürfnissen entsprechen.
+      </Typography>
+      <Typography variant='h3'>Unser Engagement:</Typography>
+      <Typography variant='body1'>Qualität von Anfang an: Wir glauben, dass Qualität nicht verhandelbar ist. Auch als neues Unternehmen setzen wir strenge Qualitätsstandards und Prüfverfahren, um sicherzustellen, dass jedes Produkt unseren hohen Erwartungen entspricht.
+        Kundenorientierung: Ihre Zufriedenheit steht für uns an erster Stelle. Wir sind bestrebt, eng mit unseren Kunden zusammenzuarbeiten, um sicherzustellen, dass alle Produkte genau Ihren Wünschen entsprechen.
+        Flexibilität und Anpassungsfähigkeit: Als neues Unternehmen sind wir flexibel und schnell anpassbar an die sich schnell ändernden Marktanforderungen. Wir sind bereit, neue Herausforderungen anzunehmen und innovative Lösungen für die komplexesten Probleme zu finden.
+      </Typography>
+      <Typography variant='body1'>Kontaktieren Sie uns heute, um mehr darüber zu erfahren, wie [Ihr Firmenname] Ihnen helfen kann, Ihre Ziele in der Kunststoffproduktion zu erreichen. Wir sind begeistert von der Möglichkeit, mit Ihnen an spannenden Projekten zu arbeiten und die Zukunft der Kunststofftechnik gemeinsam zu gestalten!</Typography>
+    </Box>
   )
 }
