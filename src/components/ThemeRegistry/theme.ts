@@ -9,10 +9,16 @@ const roboto = Roboto({
 
 const theme = createTheme({
   palette: {
-    mode: 'light',
+    mode: 'dark',
   },
   typography: {
     fontFamily: roboto.style.fontFamily,
+    h1: {
+      textAlign: 'center'
+    },
+    h3: {
+      textAlign: 'center'
+    },
   },
   components: {
     MuiAlert: {

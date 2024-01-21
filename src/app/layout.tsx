@@ -26,7 +26,6 @@ export default function RootLayout({
               sx={{
                 flexGrow: 1,
                 bgcolor: 'background.default',
-                mt: ['48px', '56px', '64px'],
                 p: 3,
               }}
             >
