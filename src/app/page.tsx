@@ -1,8 +1,6 @@
-import Box from '@mui/material/Box'
-import Typography from '@mui/material/Typography'
-import FormGroup from '@mui/material/FormGroup'
+import { Box, Typography, FormGroup } from '@mui/material'
 
-export default function Home() {
+const Home = () => {
   return (
     <Box>
       <Box sx={{ height: '100vh', pt: 14 }}>
@@ -10,11 +8,24 @@ export default function Home() {
         <Typography variant='h3' sx={{ mt: 14 }}>Willkommen bei MG Plastics - die Zukunft der Kunststofftechnik beginnt hier!</Typography>
         <Typography variant='h5' sx={{ mt: 14, textAlign: 'center' }}>Als neues Unternehmen in der Branche sind wir bei MG Plastics bereit, die Welt der Kunststoffproduktion mit frischen Ideen und modernsten Technologien zu revolutionieren. Unsere Mission ist es, von Anfang an innovative und zuverlässige Lösungen für Ihre Kunststoffanforderungen zu bieten.</Typography>
       </Box>
-      <Box sx={{ height: '100vh', pt: 14 }}>
+      <Box sx={{ height: '100vh', pt: 14 }} id='Modernste Technologie'>
         <Typography variant='h3'>Was wir bieten:</Typography>
-        <Typography variant='body1' sx={{ mt: 14 }}>Modernste Technologie: Wir investieren in die neuesten CNC-Dreh- und Fräsmaschinen, um präzise und effiziente Bearbeitung zu gewährleisten. Unsere Anlagen sind auf dem neuesten Stand der Technik und bereit, den Anforderungen moderner Produkte gerecht zu werden.
+        <Typography variant='body1' sx={{ mt: 14 }}>
+          Modernste Technologie: Wir investieren in die neuesten CNC-Dreh- und Fräsmaschinen, um präzise und effiziente Bearbeitung zu gewährleisten. Unsere Anlagen sind auf dem neuesten Stand der Technik und bereit, den Anforderungen moderner Produkte gerecht zu werden.
+        </Typography>
+      </Box>
+      <Box sx={{ height: '100vh', pt: 14 }} id='Engagierte Montage'>
+        <Typography variant='body1' sx={{ mt: 14 }}>
           Engagierte Montage: Trotz unserer kurzen Geschichte legen wir großen Wert auf die Qualität der Montage. Jedes Teil wird sorgfältig geprüft und montiert, um höchste Leistung und Zuverlässigkeit zu gewährleisten.
+        </Typography>
+      </Box>
+      <Box sx={{ height: '100vh', pt: 14 }} id='Qualifiziertes Schweißen'>
+        <Typography variant='body1' sx={{ mt: 14 }}>
           Qualifiziertes Schweißen: Wir verstehen die Bedeutung einer starken und haltbaren Verbindung in Kunststoffprodukten. Unsere Schweißexperten arbeiten mit den neuesten Verfahren, um sicherzustellen, dass jedes Produkt lange hält.
+        </Typography>
+      </Box>
+      <Box sx={{ height: '100vh', pt: 14 }} id='Innovative Ingenieurarbeit'>
+        <Typography variant='body1' sx={{ mt: 14 }}>
           Innovative Ingenieurarbeit: Unser Team besteht aus leidenschaftlichen Ingenieuren, die ständig nach innovativen Wegen suchen, um die Produktivität zu steigern und die Kosten zu senken. Wir sind hier, um mit Ihnen zusammenzuarbeiten und maßgeschneiderte Lösungen zu entwickeln, die Ihren spezifischen Bedürfnissen entsprechen.
         </Typography>
       </Box>
@@ -39,3 +50,5 @@ export default function Home() {
     </Box>
   )
 }
+
+export default Home
