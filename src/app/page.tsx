@@ -1,3 +1,5 @@
+import Slider from '@/components/Slider/Slider'
+import { imgParams } from '@/consts/imgParams'
 import { Box, Typography, FormGroup } from '@mui/material'
 
 const Home = () => {
@@ -13,6 +15,7 @@ const Home = () => {
         <Typography variant='body1' sx={{ mt: 14 }}>
           Modernste Technologie: Wir investieren in die neuesten CNC-Dreh- und Fräsmaschinen, um präzise und effiziente Bearbeitung zu gewährleisten. Unsere Anlagen sind auf dem neuesten Stand der Technik und bereit, den Anforderungen moderner Produkte gerecht zu werden.
         </Typography>
+        <Slider images={['/img/Modernste-Technologie/1.jpg','/img/Modernste-Technologie/2.jpg','/img/Modernste-Technologie/3.jpg','/img/Modernste-Technologie/21.jpg']} imgParams={imgParams} heightDefault={500} key={'slider-1'} />
       </Box>
       <Box sx={{ height: '100vh', pt: 14 }} id='Engagierte Montage'>
         <Typography variant='body1' sx={{ mt: 14 }}>
