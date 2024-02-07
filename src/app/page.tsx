@@ -13,14 +13,12 @@ const Home = () => {
         <Typography variant='h3' sx={{ mt: 14 }}>Willkommen bei MG Plastics - die Zukunft der Kunststofftechnik beginnt hier!</Typography>
         <Typography variant='h5' sx={{ mt: 14, textAlign: 'center' }}>Als neues Unternehmen in der Branche sind wir bei MG Plastics bereit, die Welt der Kunststoffproduktion mit frischen Ideen und modernsten Technologien zu revolutionieren. Unsere Mission ist es, von Anfang an innovative und zuverlässige Lösungen für Ihre Kunststoffanforderungen zu bieten.</Typography>
       </Box>
-      <section className="flex min-h-screen flex-col items-center justify-between">
-        <DemoSlider data={dataSlider} />
-      </section>
       <Box sx={{ height: '100vh', pt: 14 }} id='Modernste Technologie'>
         <Typography variant='h3'>Was wir bieten:</Typography>
         <Typography variant='body1' sx={{ mt: 14 }}>
           Modernste Technologie: Wir investieren in die neuesten CNC-Dreh- und Fräsmaschinen, um präzise und effiziente Bearbeitung zu gewährleisten. Unsere Anlagen sind auf dem neuesten Stand der Technik und bereit, den Anforderungen moderner Produkte gerecht zu werden.
         </Typography>
+        <DemoSlider data={dataSlider} />
         {/* <Slider images={['/img/Modernste-Technologie/1.jpg','/img/Modernste-Technologie/2.jpg','/img/Modernste-Technologie/3.jpg','/img/Modernste-Technologie/21.jpg']} imgParams={imgParams} heightDefault={500} key={'slider-1'} /> */}
       </Box>
       <Box sx={{ height: '100vh', pt: 14 }} id='Engagierte Montage'>

@@ -12,21 +12,12 @@ import "swiper/css/pagination";
 import Box from '@mui/material/Box'
 
 // Our custom button component
-import SliderButtons from "./SliderButtons";
+import Image from "next/image";
 
 interface Slide {
   id: number;
-  title: string;
-  tagline: string;
+  alt: string;
   image: string;
-  buttons: ButtonProps[];
-}
-
-interface ButtonProps {
-  id: number;
-  text: string;
-  link: string;
-  type: string;
 }
 
 interface DemoSliderProps {
@@ -52,27 +43,20 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
               onlyInViewport: false
             }}
           >
-            {data.map(({ id, image, tagline, title, buttons }) => (
+            {data.map(({ id, image, alt }) => (
               <SwiperSlide key={id}>
-                <Box sx={{height: '100%', width: '100%', position: 'absolute', left: '0px', top: '0px', background: `url(${image}) center center / cover scroll no-repeat`}}>
-                </Box>
+                {/* <Box sx={{height: '100%', width: '100%', position: 'absolute', left: '0px', top: '0px', background: `url(${image}) center center / contain scroll no-repeat`}}>
+                </Box> */}
                 <Box sx={{height: '100%', width: '100%', position: 'absolute', left: '0', top: '0', opacity: '0.2', backgroundColor: 'rgb(0 0 0 / 1)'}}>
                 </Box>
                 <Box sx={{height: '100%', position: 'relative', zIndex: '10', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                  <Box sx={{textAlign: 'center'}}>
-                    {tagline && (
-                      <p style={{fontWeight: '600', color: 'rgb(255 255 255 / 1)', fontSize: '1.875rem', lineHeight: '2.25rem', margin: '0px'}}>
-                        {tagline}
-                      </p>
-                    )}
-                    <p style={{fontSize: '6rem', lineHeight: '1', color: 'rgb(255 255 255 / 1)', fontWeight: '700', margin: '0px'}}>
-                      {title}
-                    </p>
-                    {buttons.length > 0 ? (
-                      <p style={{marginTop: '5rem', color: 'rgb(255 255 255 / 1)', paddingTop: '0.5rem', paddingBottom: '0.5rem', paddingLeft: '2.25rem', paddingRight: '2.25rem', backgroundColor: 'rgb(31 41 55 / 1)', borderRadius: '9999px', display: 'inline-block'}}>
-                        <SliderButtons buttons={buttons} />
-                      </p>
-                    ) : null}
+                  <Box sx={{textAlign: 'center', height: '500px'}}>
+                    <Image src={image} alt={alt}
+                      width={0}
+                      height={0}
+                      sizes="100vh"
+                      style={{ width: 'auto', height: '100%' }}
+                    />
                   </Box>
                 </Box>
               </SwiperSlide>
