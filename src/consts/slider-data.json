@@ -15,8 +15,113 @@
     "image": "/img/Modernste-Technologie/3.jpg"
   },
   {
+    "id": 4,
+    "alt": "",
+    "image": "/img/Qualifiziertes-Schweißen/4.jpg"
+  },
+  {
+    "id": 5,
+    "alt": "",
+    "image": "/img/Engagierte-Montage/5.jpg"
+  },
+  {
+    "id": 6,
+    "alt": "",
+    "image": "/img/Engagierte-Montage/6.jpg"
+  },
+  {
+    "id": 7,
+    "alt": "",
+    "image": "/img/Engagierte-Montage/7.jpg"
+  },
+  {
+    "id": 8,
+    "alt": "",
+    "image": "/img/8.jpg"
+  },
+  {
+    "id": 9,
+    "alt": "",
+    "image": "/img/Qualifiziertes-Schweißen/9.jpg"
+  },
+  {
+    "id": 10,
+    "alt": "",
+    "image": "/img/Engagierte-Montage/10.jpg"
+  },
+  {
+    "id": 11,
+    "alt": "",
+    "image": "/img/Qualifiziertes-Schweißen/11.jpg"
+  },
+  {
+    "id": 12,
+    "alt": "",
+    "image": "/img/Qualifiziertes-Schweißen/12.jpg"
+  },
+  {
+    "id": 13,
+    "alt": "",
+    "image": "/img/Qualifiziertes-Schweißen/13.jpg"
+  },
+  {
+    "id": 14,
+    "alt": "",
+    "image": "/img/Qualifiziertes-Schweißen/14.jpg"
+  },
+  {
+    "id": 15,
+    "alt": "",
+    "image": "/img/Qualifiziertes-Schweißen/15.jpg"
+  },
+  {
+    "id": 16,
+    "alt": "",
+    "image": "/img/Engagierte-Montage/16.jpg"
+  },
+  {
+    "id": 17,
+    "alt": "",
+    "image": "/img/Innovative-Ingenieurarbeit/17.jpg"
+  },
+  {
+    "id": 18,
+    "alt": "",
+    "image": "/img/Engagierte-Montage/18.jpg"
+  },
+  {
+    "id": 19,
+    "alt": "",
+    "image": "/img/Qualifiziertes-Schweißen/19.jpg"
+  },
+  {
+    "id": 20,
+    "alt": "",
+    "image": "/img/Engagierte-Montage/20.jpg"
+  },
+  {
     "id": 21,
     "alt": "",
     "image": "/img/Modernste-Technologie/21.jpg"
+  },
+  {
+    "id": 22,
+    "alt": "",
+    "image": "/img/Engagierte-Montage/22.jpg"
+  },
+  {
+    "id": 23,
+    "alt": "",
+    "image": "/img/Qualifiziertes-Schweißen/23.jpg"
+  },
+  {
+    "id": 24,
+    "alt": "",
+    "image": "/img/Innovative-Ingenieurarbeit/24.jpg"
+  },
+  {
+    "id": 25,
+    "alt": "",
+    "image": "/img/Qualifiziertes-Schweißen/25.jpg"
   }
 ]
