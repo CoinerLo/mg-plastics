@@ -33,7 +33,7 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
             navigation
             pagination={{ type: "bullets", clickable: true }}
             // autoplay={true}
-            // loop={true}
+            loop={true}
             modules={[Autoplay, Navigation, Pagination]}
             mousewheel={{
               invert: false

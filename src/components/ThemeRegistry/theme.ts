@@ -1,18 +1,20 @@
-import { Roboto } from 'next/font/google'
 import { createTheme } from '@mui/material/styles'
+import { Outfit } from 'next/font/google'
 
-const roboto = Roboto({
-  weight: ['300', '400', '500', '700'],
-  subsets: ['latin'],
-  display: 'swap',
-});
+const outfit = Outfit({ subsets: ['latin'] })
 
 const theme = createTheme({
   palette: {
     mode: 'dark',
+    background: {
+      default: '#252525'
+    },
+    text: {
+      primary: 'rgba(255, 255, 255, .8)',
+    },
   },
   typography: {
-    fontFamily: roboto.style.fontFamily,
+    fontFamily: outfit.style.fontFamily,
     h1: {
       textAlign: 'center'
     },
