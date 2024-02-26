@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+    next:
+        container_name: mg-next
+        hostname: next
+        image: "mg-next:${TAG}"
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        restart: always
+        ports:
+            - 3004:3004
+        networks:
+            dotcom:
+              aliases:
+                - next
+
+networks:
+    dotcom:
+        driver: bridge
