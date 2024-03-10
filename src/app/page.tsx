@@ -28,7 +28,7 @@ const Home = () => {
         <Typography variant='h5' sx={{ mt: laptop ? 5 : 12 }}>Als neues Unternehmen in der Branche sind wir bei MG Plastics bereit, die Welt der Kunststoffproduktion mit frischen Ideen und modernsten Technologien zu revolutionieren. Unsere Mission ist es, von Anfang an innovative und zuverlässige Lösungen für Ihre Kunststoffanforderungen zu bieten.</Typography>
         <Typography variant='h3' sx={{ mt: laptop ? 5 : 10 }}>Was wir bieten:</Typography>
       </Box>
-      <Box sx={{ ...itemContainerStyle, background: 'white' }} id='Modernste Technologie'>
+      <Box sx={{ ...itemContainerStyle }} id='Modernste Technologie'>
         <Typography variant='h4' sx={{ ...itemTitleStyle }}>Modernste Technologie</Typography>
         <Typography variant='body1' sx={{ ...itemBodyStyle }}>
           Wir investieren in die neuesten CNC-Dreh- und Fräsmaschinen, um präzise und effiziente Bearbeitung zu gewährleisten. Unsere Anlagen sind auf dem neuesten Stand der Technik und bereit, den Anforderungen moderner Produkte gerecht zu werden.
@@ -42,7 +42,7 @@ const Home = () => {
         </Typography>
         <DemoSlider data={dataSliderEM} />
       </Box>
-      <Box sx={{ ...itemContainerStyle, background: 'white' }} id='Qualifiziertes Schweißen'>
+      <Box sx={{ ...itemContainerStyle }} id='Qualifiziertes Schweißen'>
         <Typography variant='h4' sx={{ ...itemTitleStyle }}>Qualifiziertes Schweißen</Typography>
         <Typography variant='body1' sx={{ ...itemBodyStyle }}>
           Wir verstehen die Bedeutung einer starken und haltbaren Verbindung in Kunststoffprodukten. Unsere Schweißexperten arbeiten mit den neuesten Verfahren, um sicherzustellen, dass jedes Produkt lange hält.
@@ -56,7 +56,7 @@ const Home = () => {
         </Typography>
         <DemoSlider data={dataSliderII} />
       </Box>
-      <Box sx={{ height: '100vh', pt: 14, background: 'white' }}>
+      <Box sx={{ height: '100vh', pt: 14 }}>
         <Typography variant='h3'>Unser Engagement:</Typography>
         <Typography variant='body1' sx={{ mt: 14 }}>
           <strong>Qualität von Anfang an:</strong> Wir glauben, dass Qualität nicht verhandelbar ist. Auch als neues Unternehmen setzen wir strenge Qualitätsstandards und Prüfverfahren, um sicherzustellen, dass jedes Produkt unseren hohen Erwartungen entspricht.
