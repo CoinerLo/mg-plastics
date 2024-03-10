@@ -45,7 +45,7 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
   return (
     <Box sx={{width: '100%'}}>
       <Box sx={{height: '100vh'}}>
-        <ul style={{height: '100%', width: '100%'}}>
+        <ul style={{height: '100%', width: '100%', paddingLeft: 0}}>
           <Swiper
             navigation
             // pagination={{ type: "bullets", clickable: true }}
