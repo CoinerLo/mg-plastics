@@ -49,4 +49,28 @@ const theme = createTheme({
   },
 })
 
+theme.typography.h1 = {
+  textAlign: 'center',
+  fontSize: '6rem',
+  [theme.breakpoints.down('tablet')]: {
+    fontSize: '3rem',
+  },
+};
+
+theme.typography.h3 = {
+  textAlign: 'center',
+  fontSize: '3rem',
+  [theme.breakpoints.down('tablet')]: {
+    fontSize: '2rem',
+  },
+};
+
+theme.typography.h5 = {
+  textAlign: 'center',
+  fontSize: '1.5rem',
+  [theme.breakpoints.down('tablet')]: {
+    fontSize: '1rem',
+  },
+};
+
 export default theme;
