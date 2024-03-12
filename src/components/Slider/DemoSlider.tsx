@@ -25,9 +25,10 @@ interface Slide {
 
 interface DemoSliderProps {
   data: Slide[];
+  imgPriority?: boolean;
 }
 
-const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
+const DemoSlider: React.FC<DemoSliderProps> = ({ data, imgPriority = false }) => {
   const theme = useTheme();
   const tablet = useMediaQuery(theme.breakpoints.down('tablet'));
   const styles = {
@@ -73,6 +74,7 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
                       height={0}
                       sizes={tablet ? "100vw" : "100vh"}
                       style={styles.image}
+                      priority={imgPriority}
                     />
                   </Box>
                 </Box>
