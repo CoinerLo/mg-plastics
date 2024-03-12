@@ -33,28 +33,28 @@ const Home = () => {
         <Typography variant='body1' sx={{ ...itemBodyStyle }}>
           Wir investieren in die neuesten CNC-Dreh- und Fräsmaschinen, um präzise und effiziente Bearbeitung zu gewährleisten. Unsere Anlagen sind auf dem neuesten Stand der Technik und bereit, den Anforderungen moderner Produkte gerecht zu werden.
         </Typography>
-        <DemoSlider data={dataSliderMT} />
+        <DemoSlider data={dataSliderMT} imgPriority />
       </Box>
       <Box sx={{ ...itemContainerStyle }} id='Engagierte Montage'>
         <Typography variant='h4' sx={{ ...itemTitleStyle }}>Engagierte Montage</Typography>
         <Typography variant='body1' sx={{ ...itemBodyStyle }}>
           Trotz unserer kurzen Geschichte legen wir großen Wert auf die Qualität der Montage. Jedes Teil wird sorgfältig geprüft und montiert, um höchste Leistung und Zuverlässigkeit zu gewährleisten.
         </Typography>
-        <DemoSlider data={dataSliderEM} />
+        <DemoSlider data={dataSliderEM} imgPriority />
       </Box>
       <Box sx={{ ...itemContainerStyle }} id='Qualifiziertes Schweißen'>
         <Typography variant='h4' sx={{ ...itemTitleStyle }}>Qualifiziertes Schweißen</Typography>
         <Typography variant='body1' sx={{ ...itemBodyStyle }}>
           Wir verstehen die Bedeutung einer starken und haltbaren Verbindung in Kunststoffprodukten. Unsere Schweißexperten arbeiten mit den neuesten Verfahren, um sicherzustellen, dass jedes Produkt lange hält.
         </Typography>
-        <DemoSlider data={dataSliderQS} />
+        <DemoSlider data={dataSliderQS} imgPriority />
       </Box>
       <Box sx={{ ...itemContainerStyle }} id='Innovative Ingenieurarbeit'>
         <Typography variant='h4' sx={{ ...itemTitleStyle }}>Innovative Ingenieurarbeit</Typography>
         <Typography variant='body1' sx={{ ...itemBodyStyle }}>
           Unser Team besteht aus leidenschaftlichen Ingenieuren, die ständig nach innovativen Wegen suchen, um die Produktivität zu steigern und die Kosten zu senken. Wir sind hier, um mit Ihnen zusammenzuarbeiten und maßgeschneiderte Lösungen zu entwickeln, die Ihren spezifischen Bedürfnissen entsprechen.
         </Typography>
-        <DemoSlider data={dataSliderII} />
+        <DemoSlider data={dataSliderII} imgPriority />
       </Box>
       <Box sx={{ height: '100vh', pt: 14 }}>
         <Typography variant='h3'>Unser Engagement:</Typography>
